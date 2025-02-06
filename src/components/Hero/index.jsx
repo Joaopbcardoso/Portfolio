@@ -16,7 +16,7 @@ const Hero = () => {
       <HeroContent>
         <TextContent>
           <Title>João Pedro Benvenutti Vidal Cardoso</Title>
-          <TypingEffect>System Developer</TypingEffect>
+          <TypingEffect>Software Developer</TypingEffect>
           <Description>
             I am a Developer passionate about creating innovative solutions and 
             exceptional digital experiences. Specialized in React, JavaScript, 

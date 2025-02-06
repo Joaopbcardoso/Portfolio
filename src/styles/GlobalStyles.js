@@ -36,9 +36,6 @@ export const GlobalStyles = createGlobalStyle`
     max-width: 100vh;
     margin: 0 auto;
     padding: 0 2rem;
-    display: flex;
-    align-itens; center;
-    justify-content: center
   }
 
   .section {

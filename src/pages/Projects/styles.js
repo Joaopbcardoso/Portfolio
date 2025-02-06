@@ -42,7 +42,7 @@ export const ProjectCard = styled(motion.div)`
 
 export const ProjectImage = styled.img`
   width: 100%;
-  height: 200px;
+  height: 220px;
   object-fit: cover;
 `;
 

@@ -53,7 +53,7 @@ export const TypingEffect = styled(motion.h2)`
       width: 0%;
     }
     50% {
-      width: 30%;
+      width: 32%;
     }
     100% {
       width: 0%;

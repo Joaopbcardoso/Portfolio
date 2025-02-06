@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from 'react-icons/fa';
 import {
   ContactSection,
   ContactContainer,
@@ -13,7 +13,6 @@ import {
 const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Adicione aqui a lógica para enviar o formulário
   };
 
   return (
@@ -28,7 +27,7 @@ const Contact = () => {
           <ContactInfo>
             <p>Let's talk! Get in touch through social media.</p>
             <SocialLinks>
-              <a href="https://github.com/Joaopbcardoso" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Joaopbcardoso " target="_blank" rel="noopener noreferrer">
                 <FaGithub />
               </a>
               <a href="https://www.linkedin.com/in/joao-pedro-benvenutti/" target="_blank" rel="noopener noreferrer">
@@ -36,6 +35,9 @@ const Contact = () => {
               </a>
               <a href="mailto:joaobenvenutti07@gmail.com">
                 <FaEnvelope />
+              </a>
+              <a href="https://www.instagram.com/joaobenvenutti_/">
+                <FaInstagram />
               </a>
             </SocialLinks>
           </ContactInfo>

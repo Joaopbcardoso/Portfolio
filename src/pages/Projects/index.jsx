@@ -8,25 +8,28 @@ import {
   ProjectImage,
   ProjectContent,
 } from './styles';
+import fourlines from '../../assets/4lines.png'
+import kanbenv from '../../assets/kanbenv.png'
+import apps from '../../assets/app.png'
 
 const projectsData = [
   {
-    title: '[Nome do Projeto 1]',
-    description: '[Descrição do projeto 1] Um projeto incrível que demonstra minhas habilidades em...',
-    image: 'https://picsum.photos/400/300',
-    link: '#',
+    title: '4Lines',
+    description: 'This is a sports news website focused on basketball and soccer. I applied my web development skills using React JS in this project.',
+    image: fourlines,
+    link: 'https://github.com/Joaopbcardoso/4lines',
   },
   {
-    title: '[Nome do Projeto 2]',
-    description: '[Descrição do projeto 2] Outro projeto interessante que utiliza...',
-    image: 'https://picsum.photos/401/300',
-    link: '#',
+    title: 'KanBenv (a Kanban system)',
+    description: 'This project is a kanban system built with React JS, where users can sign up and create tasks, adding a description and setting their priority.',
+    image: kanbenv,
+    link: 'https://github.com/Joaopbcardoso/kanbenv_saep',
   },
   {
-    title: '[Nome do Projeto 3]',
-    description: '[Descrição do projeto 3] Um projeto desafiador que implementa...',
-    image: 'https://picsum.photos/402/300',
-    link: '#',
+    title: 'Mobile Development',
+    description: 'This project is a container for multiple mobile applications, showcasing the knowledge I gained from several React Native classes I took at SENAI.',
+    image: apps,
+    link: 'https://github.com/Joaopbcardoso/Desenvolvimento-de-Apps',
   },
 ];
 
@@ -48,7 +51,7 @@ const Projects = () => {
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  Ver Projeto
+                  View Project on GitHub
                 </a>
               </ProjectContent>
             </ProjectCard>
